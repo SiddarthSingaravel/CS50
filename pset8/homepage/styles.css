@@ -1,0 +1,179 @@
+/*------------------------------ Index/Home Page -----------------------------------*/
+
+.wrapper{
+    width:1170px;
+    margin:auto;
+}
+header
+{
+    background:url("images/register.jpg");
+    height: 100vh;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position:center center;
+    position:relative;
+}
+table, th, td {
+	border: 1px solid black;
+  	position:relative;
+  	border-collapse: collapse;
+}
+.nav-area{
+    float:right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color:#fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:Georgia;
+    font-size: 24px;
+}
+.nav-area li a:hover{
+    background: #fff;
+    color:#333;
+}
+img1{
+	height: 100px;
+	vertical-align:middle;
+}
+.logo img {
+    width:300px;
+    float:left;
+    height:auto;
+    border-radius: 50%;
+}
+.about
+{
+    position: absolute;
+    width:600px;
+    height: 300px;
+    margin: 20% 29%;
+}
+.about h1{
+	text-align: center;
+	color:#fff;
+	text-transform:inherit;
+	font-size:25px;
+}
+.info{
+	position: absolute;
+    width:600px;
+    margin: 30% 40%;
+}
+.info table{
+	text-align:center;
+	color:#fff;
+	font-size:25px;
+}
+/*------------------------------Experience page------------------------------*/
+.vexp{
+    position: absolute;
+    width:900px;
+    height: 200px;
+    margin: 10% 29%;
+}
+.vexp p,h4{
+	color:#fff;
+	text-transform:inherit;
+	font-size:25px;
+}
+.vexp ul{
+	color:#fff;
+	font-size:20px;
+}
+.vexp p1{
+	color:#fff;
+	font-size:20px;
+}
+/*--------------------------------Certificate page --------------------------*/
+.cert{
+	position: absolute;
+    width:900px;
+    height: 200px;
+    margin: 10% 29%;
+}
+.cert h5{
+	color:#fff;
+	text-transform:inherit;
+	font-size:22px;
+}
+/*--------------------------------------------Projects page---------------------*/
+.project{
+	position: absolute;
+    width:900px;
+    height: 200px;
+    margin: 10% 29%;
+}
+.project h4{
+	color:#fff;
+	text-transform:inherit;
+	font-size:25px;
+}
+
+/*----------------------------footer -------------------*/
+footer
+	{
+		height: 300px;
+		width: 1930px;
+		background-color: black;
+	}
+footer p{
+	color:#fff;
+	text-transform:inherit;
+	font-size:25px;
+}
+.fa
+	{
+	margin: 0px 5px;
+	font-size: 120px;
+	width: 20px;
+	height: 60px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	}
+.fa:hover
+	{
+		opacity: .7;
+	}
+.fa-linkedin
+	{
+	margin: 0px 5px;
+	font-size: 50px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	background: #1984c2;
+	color: white;
+	}
+.fa-facebook
+	{
+	margin: 0px 5px;
+	font-size: 50px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	background: #3B5998;
+	color: white;
+	}
+.fa-instagram {
+	margin: 0px 5px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 50px;
+	background: #d6249f;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	box-shadow: 0px 3px 8px rgba(0,0,0,.25);
+    }
